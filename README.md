@@ -8,7 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 -para executar o prototipo, instale o react na pasta do arquivo 'prototipo executavel hands on work XI'; instale o react-router-dom e api google-maps;
-crie umaconta no google cloud para utilizar essa api, gere uma chave de api; copie e cole na linha de codigo informado abaixo
+-crie umaconta no google cloud para utilizar essa api, gere uma chave de api; copie e cole na linha de codigo informado abaixo
+
 ![image](https://github.com/user-attachments/assets/d5b9b654-2649-40b7-8cc3-12ccd9bd4b4f)
 
-!!esse sistema é apenas um prototipo executavel para trabalho de faculdade
+-!!esse sistema é apenas um prototipo executavel para trabalho de faculdade
