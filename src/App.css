@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.bg-branco{
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  margin: 0;
+  color: black;
+}
+
+.espaco-app{
+  height: 940px;
+  width: 360px;
+  padding: 5px;
+  color: black;
+}
+
+
+.alinhamento-btn{
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin: 100px 25px auto;
+
+}
+
+
+.alinhamento-btn input{
+  margin: 5px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+  color: black;
+}
+
+.alinhamento-btn button{
+  margin-top: 25px;
+  background-color: #166EBF;
+  opacity: 65%;
+}
+
+
+.botao button {
+  display: flex;
+  margin-inline-start: auto;
+}
+
+
+
+.bg-card{
+  background: #a2ff9df8;
+  color: black;
+  margin-top: 10px;
+}
+
+.rodape{
+  display: flex;
+  gap: 60px;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
